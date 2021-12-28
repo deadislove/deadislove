@@ -1,10 +1,8 @@
 <!-- ### Hi there 👋 -->
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=deadislove&count_private=true&theme=dark&include_all_commits=true&show_icons=true"></a>
+<a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=deadislove&count_private=true&theme=dark&include_all_commits=true&show_icons=true"></a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deadislove&layout=compact&theme=dark">
   </a>
-</p>
 <!--
 **deadislove/deadislove** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

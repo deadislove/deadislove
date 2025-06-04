@@ -47,4 +47,4 @@ A collection of production-ready NestJS templates following modern software arch
 
 ### Basic template
 
-- [Clean Architecture](https://github.com/deadislove/nestJS-clean-architecture-template) — Separates concerns across layers, promoting maintainability and testability.
+- [Clean Architecture](https://github.com/deadislove/dotnet-CleanArchMediatR-template) — Separates concerns across layers, promoting maintainability and testability.

@@ -26,6 +26,15 @@ Here are some ideas to get you started:
 
 <a href='https://ko-fi.com/F1F82YR41' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
+---
+
+## Software product
+
+- API
+    - [Smile Rabbit Bear - AI Translation API](https://rapidapi.com/dawei.lin7689/api/smile-rabbit-bear-ai-translation-api/playground/apiendpoint_e10ce7f4-f6cf-472e-9884-918177ee68b9)
+ 
+---
+
 ## NestJS Architecture Templates
 
 A collection of production-ready NestJS templates following modern software architecture principles.
@@ -49,3 +58,4 @@ A collection of production-ready NestJS templates following modern software arch
 
 - [Clean Architecture](https://github.com/deadislove/dotnet-CleanArchMediatR-template) 
 - [Modular Monolith Architecture](https://github.com/deadislove/dotnet-ModularMonolith-template)
+- [Hexagonal Architecture](https://github.com/deadislove/dotnet-HexaCleanHybArch-template)

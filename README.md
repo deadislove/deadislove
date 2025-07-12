@@ -1,5 +1,9 @@
 <!-- ### Hi there 👋 -->
 <p align="center"> 
+  <!--
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=deadislove&theme=dark">
+  </a> -->
   <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=deadislove&count_private=true&theme=dark&include_all_commits=true&show_icons=true">
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">

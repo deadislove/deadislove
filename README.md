@@ -63,3 +63,7 @@ A collection of production-ready NestJS templates following modern software arch
 - [Clean Architecture](https://github.com/deadislove/dotnet-CleanArchMediatR-template) 
 - [Modular Monolith Architecture](https://github.com/deadislove/dotnet-ModularMonolith-template)
 - [Hexagonal Architecture](https://github.com/deadislove/dotnet-HexaCleanHybArch-template)
+
+### Advanced template
+
+NA

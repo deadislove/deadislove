@@ -32,14 +32,24 @@ Here are some ideas to get you started:
 
 ---
 
-## Software product
+## 🧠 Software product
 
 - API
     - [Smile Rabbit Bear - AI Translation API](https://rapidapi.com/dawei.lin7689/api/smile-rabbit-bear-ai-translation-api/playground/apiendpoint_e10ce7f4-f6cf-472e-9884-918177ee68b9)
  
 ---
 
-## NestJS Architecture Templates
+## 🚀 Network Performance & Automation Toolkit
+
+I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
+
+### 📡 WiFi-Performance-Monitor
+
+### ⚡ Network-Stresser
+
+---
+
+## 🏗️ NestJS Architecture Templates
 
 A collection of production-ready NestJS templates following modern software architecture principles.
 
@@ -56,7 +66,7 @@ A collection of production-ready NestJS templates following modern software arch
 - [Modular Monolith Architecture with integrated CQRS and Event Sourcing patterns](https://github.com/deadislove/nestJS-modular-monolith-cqrs-event-sourcing-architecture-template)
 - [Modular Monolith Architecture incorporating Event-Driven communication patterns](https://github.com/deadislove/nestJS-modular-monolith-event-driven-architecture-template)
 
-## .NET Architecture Templates  
+## 🏗️ .NET Architecture Templates  
 
 ### Basic template
 

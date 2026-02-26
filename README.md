@@ -43,9 +43,13 @@ Here are some ideas to get you started:
 
 I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
 
-### 📡 WiFi-Performance-Monitor
+### 📡 [WiFi-Performance-Monitor](https://github.com/deadislove/wifi_performance_monitor.git)
 
-### ⚡ [Network-Stresser](https://github.com/deadislove/network_stresser.git)
+- Core Function: Tracks RSSI (Signal Strength), Noise Floor, and Latency over time.
+- Key Insight: Helps identify signal degradation patterns and interference in Mesh environments.
+- Tech Stack: Python, CoreWLAN (macOS), Pandas.
+
+### ⚡ [Network-Stresser](https://github.com/deadislove/network_stresser)
 
 - Core Function: Simulates high-density household traffic using multi-threaded iperf3 streams.
 - Key Insight: Evaluates Bufferbloat, Congestion Control, and hardware stability under 95%+ load.

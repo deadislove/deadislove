@@ -45,7 +45,11 @@ I develop specialized Digital Tools designed to validate, stress-test, and monit
 
 ### 📡 WiFi-Performance-Monitor
 
-### ⚡ Network-Stresser
+### ⚡ [Network-Stresser](https://github.com/deadislove/network_stresser.git)
+
+- Core Function: Simulates high-density household traffic using multi-threaded iperf3 streams.
+- Key Insight: Evaluates Bufferbloat, Congestion Control, and hardware stability under 95%+ load.
+- Tech Stack: Python, Subprocess, Matplotlib, JSON-parsing.
 
 ---
 

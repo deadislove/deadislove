@@ -61,6 +61,14 @@ I develop specialized Digital Tools designed to validate, stress-test, and monit
 - Key Insight: Evaluates Bufferbloat, Congestion Control, and hardware stability under 95%+ load.
 - Tech Stack: Python, Subprocess, Matplotlib, JSON-parsing.
 
+#### 🛠️ Why this matters for eero / Networking QA
+
+My toolkit addresses the full spectrum of network validation:
+
+1. Signal Layer: WiFi-Performance-Monitor (RF Health)
+2. Throughput Layer: Network-Stresser (Capacity & Stress)
+3. Application/IoT Layer: Smart-Home-Simulator (Ecosystem Behavior & Security)
+
 ---
 
 ## 🏗️ NestJS Architecture Templates

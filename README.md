@@ -43,7 +43,7 @@ Here are some ideas to get you started:
 
 I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
 
-### 🏡 Smart-Home-Network-Simulator (Latest)
+### 🏡 [Smart-Home-Network-Simulator](https://github.com/deadislove/smarthome_simulator) **[Latest]**
 
 - Core Function: A high-fidelity framework that emulates 50+ diverse IoT devices (IP Cameras, Smart Bulbs) with dynamic behaviors and security vulnerabilities.
 - Key Insight: Validates Router Stability and Security Observability by simulating real-world chaos like "Thundering Herd" reconnection and anomaly injection.

@@ -43,7 +43,7 @@ Here are some ideas to get you started:
 
 I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
 
-### 🏡 [Smart-Home-Network-Simulator](https://github.com/deadislove/smarthome_simulator) **[Latest]**
+### 🏡 [Smart-Home-Network-Simulator](https://github.com/deadislove/smarthome_simulator)
 
 - Core Function: A high-fidelity framework that emulates 50+ diverse IoT devices (IP Cameras, Smart Bulbs) with dynamic behaviors and security vulnerabilities.
 - Key Insight: Validates Router Stability and Security Observability by simulating real-world chaos like "Thundering Herd" reconnection and anomaly injection.
@@ -60,6 +60,12 @@ I develop specialized Digital Tools designed to validate, stress-test, and monit
 - Core Function: Simulates high-density household traffic using multi-threaded iperf3 streams.
 - Key Insight: Evaluates Bufferbloat, Congestion Control, and hardware stability under 95%+ load.
 - Tech Stack: Python, Subprocess, Matplotlib, JSON-parsing.
+
+### 🛡️ [Guardian-IDS](https://github.com/deadislove/guardian_ids) **[Latest]**
+
+- Core Function: A modular Intrusion Detection System (IDS) that monitors real-time IoT traffic to identify and mitigate cyber threats (DDoS, Scanning, Lateral Movement).
+- Key Insight: Implements Stateful Traffic Profiling and Sliding-Window Frequency Analysis to distinguish between normal device heartbeats and malicious spikes.
+- Tech Stack: Python, Scapy (Packet Inspection), PyYAML (Config-driven), psutil (System Guard), Logging.
 
 #### 🛠️ Why this matters for eero / Networking QA
 

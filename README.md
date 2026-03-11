@@ -37,6 +37,16 @@ Here are some ideas to get you started:
 - API
     - [Smile Rabbit Bear - AI Translation API](https://rapidapi.com/dawei.lin7689/api/smile-rabbit-bear-ai-translation-api/playground/apiendpoint_e10ce7f4-f6cf-472e-9884-918177ee68b9)
  
+- CLI
+  
+Waiting....
+
+---
+
+## 💳 Payment service provider & Acquired system Tookit
+
+Waiting....
+ 
 ---
 
 ## 🚀 Network Performance & Automation Toolkit
@@ -104,4 +114,12 @@ A collection of production-ready NestJS templates following modern software arch
 
 ### Advanced template
 
-NA
+Waiting....
+
+## 🏗️ Java Architecture Templates
+
+Waiting....
+
+## 🏗️ Python Architecture Templates
+
+Waiting....

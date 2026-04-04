@@ -53,6 +53,12 @@ Waiting....
 
 I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
 
+### [🛡️ Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core) **[Latest]**
+
+- Core Function: A unified, multi-engine validation framework that orchestrates the entire suite (Simulator, Stresser, IDS, Monitor) into a single testing workflow.
+- Key Insight: Solves the "Fragmentation" problem in network QA by providing time-synced data aggregation and engine lifecycle management. It allows for complex scenarios, such as: “Trigger 100 devices (Simulator) -> Inject 95% load (Stresser) -> Validate if IDS detects the resulting anomalies in real-time.”
+- Tech Stack: Python (Multiprocessing), YAML-driven Scenarios, Rich (TUI Dashboard), Cloud-native validation (AWS/GCP IoT SDKs).
+
 ### 🏡 [Smart-Home-Network-Simulator](https://github.com/deadislove/smarthome_simulator)
 
 - Core Function: A high-fidelity framework that emulates 50+ diverse IoT devices (IP Cameras, Smart Bulbs) with dynamic behaviors and security vulnerabilities.
@@ -71,7 +77,7 @@ I develop specialized Digital Tools designed to validate, stress-test, and monit
 - Key Insight: Evaluates Bufferbloat, Congestion Control, and hardware stability under 95%+ load.
 - Tech Stack: Python, Subprocess, Matplotlib, JSON-parsing.
 
-### 🛡️ [Guardian-IDS](https://github.com/deadislove/guardian_ids) **[Latest]**
+### 🛡️ [Guardian-IDS](https://github.com/deadislove/guardian_ids)
 
 - Core Function: A modular Intrusion Detection System (IDS) that monitors real-time IoT traffic to identify and mitigate cyber threats (DDoS, Scanning, Lateral Movement).
 - Key Insight: Implements Stateful Traffic Profiling and Sliding-Window Frequency Analysis to distinguish between normal device heartbeats and malicious spikes.

@@ -44,7 +44,12 @@ Here are some ideas to get you started:
 
 ## 💳 Payment service provider & Acquired system Tookit
 
-Waiting....
+### 🌐 [OmniSwitch - Enterprise Payment Gateway API](https://github.com/deadislove/omniswitch-api) 
+
+- **Core Function:** A from-scratch reference implementation of a payment gateway that sits between merchants and card networks. It handles smart multi-PSP routing (Stripe + Adyen, BIN-aware) and absorbs complex money-movement edge cases like refunds, disputes, retries, and payouts. 
+- **Key Insight:** Demonstrates how enterprise payment patterns fit together end-to-end. It features a real double-entry ledger, subscriptions with decline-aware dunning, marketplace splits with connected-account payouts, risk-based reserves, and delegated "agentic payment" credentials. 
+- **Tech Stack:** NestJS, TypeScript, Hexagonal Architecture, Domain-Driven Design (DDD), PostgreSQL (Master/Replica CQRS), Redis, HashiCorp Vault. 
+- *Note: This is a portfolio/reference project built to showcase real, verified infrastructure integration (not just mocked-out unit tests). Please review the Known Limitations and LICENSE before assuming any part of it is production-ready.*
  
 ---
 

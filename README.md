@@ -38,13 +38,13 @@ Here are some ideas to get you started:
     - [Smile Rabbit Bear - AI Translation API](https://rapidapi.com/dawei.lin7689/api/smile-rabbit-bear-ai-translation-api/playground/apiendpoint_e10ce7f4-f6cf-472e-9884-918177ee68b9)
  
 - CLI
-  - [Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core)
+  - [Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core) **[Latest]**
 
 ---
 
 ## 💳 Payment service provider & Acquired system Tookit
 
-### 🌐 [OmniSwitch - Enterprise Payment Gateway API](https://github.com/deadislove/omniswitch-api) 
+### 🌐 [OmniSwitch - Enterprise Payment Gateway API](https://github.com/deadislove/omniswitch-api) **[Latest]**
 
 - **Core Function:** A from-scratch reference implementation of a payment gateway that sits between merchants and card networks. It handles smart multi-PSP routing (Stripe + Adyen, BIN-aware) and absorbs complex money-movement edge cases like refunds, disputes, retries, and payouts. 
 - **Key Insight:** Demonstrates how enterprise payment patterns fit together end-to-end. It features a real double-entry ledger, subscriptions with decline-aware dunning, marketplace splits with connected-account payouts, risk-based reserves, and delegated "agentic payment" credentials. 
@@ -57,7 +57,7 @@ Here are some ideas to get you started:
 
 I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
 
-### [🛡️ Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core) **[Latest]**
+### [🛡️ Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core) 
 
 - Core Function: A unified, multi-engine validation framework that orchestrates the entire suite (Simulator, Stresser, IDS, Monitor) into a single testing workflow.
 - Key Insight: Solves the "Fragmentation" problem in network QA by providing time-synced data aggregation and engine lifecycle management. It allows for complex scenarios, such as: “Trigger 100 devices (Simulator) -> Inject 95% load (Stresser) -> Validate if IDS detects the resulting anomalies in real-time.”
@@ -132,5 +132,5 @@ Waiting....
 
 ## 🏗️ Python Architecture Templates
 
-- [Onion architecture with DDD](https://github.com/deadislove/fastapi-onion-ddd-template)
-- [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template)
+- [Onion architecture with DDD](https://github.com/deadislove/fastapi-onion-ddd-template) **[Latest]**
+- [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template) **[Building]**

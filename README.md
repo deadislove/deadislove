@@ -133,5 +133,5 @@ Waiting....
 
 ## 🏗️ Python Architecture Templates
 
-- [Onion architecture with DDD](https://github.com/deadislove/fastapi-onion-ddd-template) **[Latest]**
-- [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template) **[Building]**
+- [Onion architecture with DDD](https://github.com/deadislove/fastapi-onion-ddd-template)
+- [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template) **[Latest]**

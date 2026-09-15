@@ -54,6 +54,17 @@ Here are some ideas to get you started:
  
 ---
 
+## 📀 AI-Assisted Semiconductor POC
+
+### ▦ [WaferSight - AI-Assisted Semiconductor Quality Inspection](#) **[Future]**
+
+*   **Core Function:** A local-first desktop application enabling fab quality engineers to perform interactive 3D wafer visualization, offline AI defect classification, and statistical process control (SPC) monitoring directly on-device.
+*   **Key Insight:** Designed for air-gapped or high-security fab environments, the architecture completely eliminates external API dependencies. By leveraging `onnxruntime-web` for 100% local inference and implementing a background human-in-the-loop calibration layer, the system continuously adapts to engineer feedback without modifying the base CNN weights—solving model drift while maintaining deterministic reliability.
+*   **Tech Stack:** Electron, React 19, TypeScript, Node.js, SQLite (Encrypted at rest), ONNX Runtime, Three.js
+*   **Note:** The underlying CNN classifier was trained offline via PyTorch on the WM-811K dataset (achieving 95.6% accuracy). The application enforces strict IPC boundaries between the renderer and main processes to ensure robust local security.
+
+---
+
 ## 🚀 Network Performance & Automation Toolkit
 
 I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
@@ -88,7 +99,7 @@ I develop specialized Digital Tools designed to validate, stress-test, and monit
 - Key Insight: Implements Stateful Traffic Profiling and Sliding-Window Frequency Analysis to distinguish between normal device heartbeats and malicious spikes.
 - Tech Stack: Python, Scapy (Packet Inspection), PyYAML (Config-driven), psutil (System Guard), Logging.
 
-#### 🛠️ Why this matters for eero / Networking QA
+#### 🛠️ Why this matters for Enterprise Networking QA
 
 My toolkit addresses the full spectrum of network validation:
 
@@ -135,3 +146,12 @@ Waiting....
 
 - [Onion architecture with DDD](https://github.com/deadislove/fastapi-onion-ddd-template)
 - [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template) **[Latest]**
+
+## 📈 My Engineering Philosophy
+
+- Design for Failure: Systems must degrade gracefully. Centralized orchestration often creates bottlenecks; I favor resilient, decoupled boundaries.
+- Documentation is Architecture: Clear technical documentation and standardized protocols (like PCI DSS or ISO 8583) are non-negotiable for system integrity.
+
+## 📫 Let's Connect
+
+LinkedIn: [Da-Wei Lin](https://www.linkedin.com/in/da-wei-lin-689a35107/)

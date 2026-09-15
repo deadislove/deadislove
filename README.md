@@ -45,7 +45,7 @@ Here are some ideas to get you started:
 
 ## 💳 Payment service provider & Acquired system Tookit
 
-### 🌐 [OmniSwitch - Enterprise Payment Gateway API](https://github.com/deadislove/omniswitch-api) **[Latest]**
+### 🌐 [OmniSwitch - Enterprise Payment Gateway API](https://github.com/deadislove/omniswitch-api) 
 
 - **Core Function:** A from-scratch reference implementation of a payment gateway that sits between merchants and card networks. It handles smart multi-PSP routing (Stripe + Adyen, BIN-aware) and absorbs complex money-movement edge cases like refunds, disputes, retries, and payouts. 
 - **Key Insight:** Demonstrates how enterprise payment patterns fit together end-to-end. It features a real double-entry ledger, subscriptions with decline-aware dunning, marketplace splits with connected-account payouts, risk-based reserves, and delegated "agentic payment" credentials. 
@@ -54,9 +54,9 @@ Here are some ideas to get you started:
  
 ---
 
-## 📀 AI-Assisted Semiconductor POC
+## 📀 AI-Assisted Semiconductor 
 
-### ▦ [WaferSight - AI-Assisted Semiconductor Quality Inspection](#) **[Future]**
+### ▦ [WaferSight - AI-Assisted Semiconductor Quality Inspection](https://github.com/deadislove/WaferSight) **[Latest]**
 
 *   **Core Function:** A local-first desktop application enabling fab quality engineers to perform interactive 3D wafer visualization, offline AI defect classification, and statistical process control (SPC) monitoring directly on-device.
 *   **Key Insight:** Designed for air-gapped or high-security fab environments, the architecture completely eliminates external API dependencies. By leveraging `onnxruntime-web` for 100% local inference and implementing a background human-in-the-loop calibration layer, the system continuously adapts to engineer feedback without modifying the base CNN weights—solving model drift while maintaining deterministic reliability.

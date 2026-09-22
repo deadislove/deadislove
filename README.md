@@ -145,8 +145,8 @@ Waiting....
 ## 🏗️ Python Architecture Templates
 
 - [Onion architecture with DDD](https://github.com/deadislove/fastapi-onion-ddd-template)
-- [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template) **[Latest]**
-- [Microkernel (Plug-in) architecture](#) [Building]
+- [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template)
+- [Microkernel (Plug-in) architecture](https://github.com/deadislove/fastapi-microkernel-app-template) **[Verifying]**
 
 ## 📈 My Engineering Philosophy
 

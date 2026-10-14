@@ -51,6 +51,13 @@ Here are some ideas to get you started:
 - **Key Insight:** Demonstrates how enterprise payment patterns fit together end-to-end. It features a real double-entry ledger, subscriptions with decline-aware dunning, marketplace splits with connected-account payouts, risk-based reserves, and delegated "agentic payment" credentials. 
 - **Tech Stack:** NestJS, TypeScript, Hexagonal Architecture, Domain-Driven Design (DDD), PostgreSQL (Master/Replica CQRS), Redis, HashiCorp Vault. 
 - *Note: This is a portfolio/reference project built to showcase real, verified infrastructure integration (not just mocked-out unit tests). Please review the Known Limitations and LICENSE before assuming any part of it is production-ready.*
+
+### 🛡️ [Aegis-Scan](https://github.com/deadislove/aegis_scan)
+
+- Core Function: A cross-platform, zero-disk, low-latency scanning engine for payment cards (PAN), ID documents (ICAO MRZ), and vouchers, built on a shared C++20 core with a stable C ABI.
+- Key Insight: Prioritizes strict data privacy through a "zero-disk" architecture and memory-wipeable buffers for sensitive PAN data. It maintains high performance using atomic frame dropping (processing a single in-flight frame) and applies a unified OCR-confusion repair algorithm universally across mobile, web, and desktop environments.
+- Tech Stack: C++20 (Core Engine), Swift / AVFoundation (iOS), Kotlin / ML Kit (Android), TypeScript / Web Workers (Web), .NET 8, Java 21+ (FFM/JNI).
+- Note: The React Native and Flutter implementations are provided as working reference wrappers rather than published packages. Web-based scanning requires a pluggable external OCR module (like Tesseract.js), and live camera accuracy scales with the platform's native recognizer capabilities.
  
 ---
 
@@ -69,7 +76,7 @@ Here are some ideas to get you started:
 
 I develop specialized Digital Tools designed to validate, stress-test, and monitor wireless networking infrastructure. These tools bridge the gap between raw data collection and actionable QA insights.
 
-### [🛡️ Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core) 
+### 🛡️ [Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core) 
 
 - Core Function: A unified, multi-engine validation framework that orchestrates the entire suite (Simulator, Stresser, IDS, Monitor) into a single testing workflow.
 - Key Insight: Solves the "Fragmentation" problem in network QA by providing time-synced data aggregation and engine lifecycle management. It allows for complex scenarios, such as: “Trigger 100 devices (Simulator) -> Inject 95% load (Stresser) -> Validate if IDS detects the resulting anomalies in real-time.”

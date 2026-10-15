@@ -46,7 +46,11 @@ Here are some ideas to get you started:
 ## 💳 Payment service provider & Acquired system Tookit
 
 <p align="center">
-  <img src="./assets/payment-lifecycle.svg" alt="Credit Card Payment Lifecycle & OCR Visualizer" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/payment-lifecycle.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/payment-lifecycle-light.svg">
+    <img src="./assets/payment-lifecycle-light.svg" alt="Credit Card Payment Lifecycle & OCR Visualizer" width="100%">
+  </picture>
 </p>
 
 ### 🌐 [OmniSwitch - Enterprise Payment Gateway API](https://github.com/deadislove/omniswitch-api) 

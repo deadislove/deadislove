@@ -45,6 +45,10 @@ Here are some ideas to get you started:
 
 ## 💳 Payment service provider & Acquired system Tookit
 
+<p align="center">
+  <img src="./assets/payment-lifecycle.svg" alt="Credit Card Payment Lifecycle & OCR Visualizer" width="100%">
+</p>
+
 ### 🌐 [OmniSwitch - Enterprise Payment Gateway API](https://github.com/deadislove/omniswitch-api) 
 
 - **Core Function:** A from-scratch reference implementation of a payment gateway that sits between merchants and card networks. It handles smart multi-PSP routing (Stripe + Adyen, BIN-aware) and absorbs complex money-movement edge cases like refunds, disputes, retries, and payouts. 

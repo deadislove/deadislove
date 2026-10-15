@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" width="1000" height="730" role="img" aria-label="Animated credit card payment lifecycle: OCR, authorization, clearing and settlement">
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.s{opacity:0;animation:show 38.5s linear infinite}
+.p4{opacity:0;animation:ph4 38.5s linear infinite}
+.p3{opacity:0;animation:ph3 38.5s linear infinite}
+@keyframes show{0%{opacity:0}0.727%{opacity:1}8.545%{opacity:1}9.091%{opacity:0}100%{opacity:0}}
+@keyframes ph4{0%{opacity:0}1.000%{opacity:1}34.182%{opacity:1}36.364%{opacity:0}100%{opacity:0}}
+@keyframes ph3{0%{opacity:0}1.000%{opacity:1}25.636%{opacity:1}27.273%{opacity:0}100%{opacity:0}}
+.flow{stroke-dasharray:8 4;animation:dash .8s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-24}}
+.glow{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{stroke-opacity:1}50%{stroke-opacity:.45}}
+.laser{animation:scan 2s ease-in-out infinite}
+@keyframes scan{0%,100%{transform:translateY(0)}50%{transform:translateY(68px)}}
+.bar{transform-box:fill-box;transform-origin:left;animation:prog 38.5s linear infinite}
+@keyframes prog{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.ping{animation:ping 1.2s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes ping{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.4)}}
+@media (prefers-reduced-motion:reduce){.flow,.laser,.ping,.glow{animation:none}}
+</style>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(15,23,42,0.06)"/></pattern><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06b6d4"/><stop offset="1" stop-color="#34d399"/></linearGradient><filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1000" height="730" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+<rect x="0" y="0" width="1000" height="64" rx="16" fill="#f1f5f9"/><rect x="0" y="48" width="1000" height="16" fill="#f1f5f9"/><line x1="0" y1="64" x2="1000" y2="64" stroke="#e2e8f0"/>
+<rect x="20" y="13" width="38" height="38" rx="10" fill="url(#lg)"/><rect x="28" y="23" width="22" height="16" rx="2" fill="none" stroke="#090d16" stroke-width="2"/><line x1="28" y1="28" x2="50" y2="28" stroke="#090d16" stroke-width="2"/>
+<text x="70" y="31" fill="#0f172a" font-size="16" font-weight="700">Payment Lifecycle &amp; OCR Visualizer</text>
+<rect x="352" y="17" width="64" height="18" rx="9" fill="rgba(6,182,212,0.12)" stroke="rgba(6,182,212,0.35)"/><text x="384" y="30" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="600">ISO 8583</text>
+<text x="70" y="49" fill="#475569" font-size="11">Interactive architecture from Card Capture to Settlement</text>
+<rect x="606" y="14" width="378" height="36" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+<text x="664.0" y="36" text-anchor="middle" fill="#64748b" font-size="11" font-weight="500">1. OCR &amp; Gateway</text>
+<g class="p4" style="animation-delay:0.0s"><rect x="612" y="19" width="104" height="26" rx="7" fill="rgba(6,182,212,0.14)"/><text x="664.0" y="36" text-anchor="middle" fill="#0891b2" font-size="11" font-weight="700">1. OCR &amp; Gateway</text></g>
+<text x="772.0" y="36" text-anchor="middle" fill="#64748b" font-size="11" font-weight="500">2. Authorization</text>
+<g class="p4" style="animation-delay:14.0s"><rect x="720" y="19" width="104" height="26" rx="7" fill="rgba(6,182,212,0.14)"/><text x="772.0" y="36" text-anchor="middle" fill="#0891b2" font-size="11" font-weight="700">2. Authorization</text></g>
+<text x="903.0" y="36" text-anchor="middle" fill="#64748b" font-size="11" font-weight="500">3. Clearing &amp; Settlement</text>
+<g class="p3" style="animation-delay:28.0s"><rect x="828" y="19" width="150" height="26" rx="7" fill="rgba(6,182,212,0.14)"/><text x="903.0" y="36" text-anchor="middle" fill="#0891b2" font-size="11" font-weight="700">3. Clearing &amp; Settlement</text></g>
+<rect x="16" y="76" width="968" height="394" rx="14" fill="#f1f5f9" fill-opacity="0.6" stroke="#e2e8f0"/>
+<rect x="16" y="76" width="968" height="394" rx="14" fill="url(#grid)"/>
+<circle cx="36" cy="96" r="4" fill="#06b6d4"/><circle cx="36" cy="96" r="4" fill="#06b6d4" class="ping"/><text x="48" y="100" fill="#334155" font-size="11" font-weight="700" letter-spacing="1">LIVE ARCHITECTURE TOPOLOGY</text>
+<g transform="translate(0,10)">
+<path d="M 160 275 L 260 275" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-width="3"/>
+<path d="M 380 275 L 480 275" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-width="3"/>
+<path d="M 540 215 L 650 160" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-width="3"/>
+<path d="M 720 185 L 720 330" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-width="3"/>
+<path d="M 780 375 L 850 375" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-width="3"/>
+<path d="M 850 340 L 600 275" fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-dasharray="6 6" stroke-width="2" opacity="0.5"/>
+<rect x="50" y="225" width="110" height="100" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="260" y="225" width="120" height="100" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="480" y="215" width="120" height="120" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="650" y="100" width="140" height="85" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="650" y="330" width="130" height="90" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="850" y="325" width="120" height="100" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="65" y="240" width="30" height="20" rx="3" fill="#fbbf24" opacity="0.85"/><text x="65" y="280" fill="#475569" font-size="10" class="mono">4532 ••••</text><text x="65" y="295" fill="#64748b" font-size="9">EXP 09/28</text><text x="105" y="345" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">Credit Card</text>
+<circle cx="320" cy="275" r="22" fill="#f1f5f9" stroke="#06b6d4" stroke-width="2"/><path d="M 310 275 L 330 275 M 320 265 L 320 285" stroke="#0891b2" stroke-width="2"/><rect x="270" y="240" width="100" height="2" fill="#0891b2" opacity="0.5" class="laser"/><text x="320" y="345" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">Aegis-Scan</text>
+<path d="M 540 250 L 525 270 L 555 270 Z" fill="#06b6d4"/><circle cx="540" cy="268" r="18" fill="none" stroke="#06b6d4" stroke-width="2"/><text x="540" y="310" text-anchor="middle" fill="#0891b2" font-size="10" class="mono">SSL / Token</text><text x="540" y="355" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">OmniSwitch Gateway</text>
+<path d="M 720 115 L 700 140 L 740 140 Z" fill="#059669"/><text x="720" y="165" text-anchor="middle" fill="#059669" font-size="10" class="mono">ISO 8583 (0100)</text><text x="720" y="94" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">Acquirer Bank</text>
+<circle cx="702" cy="372" r="14" fill="#ef4444" opacity="0.8"/><circle cx="727" cy="372" r="14" fill="#f59e0b" opacity="0.8"/><text x="715" y="440" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">Card Scheme</text>
+<path d="M 910 345 L 890 370 L 930 370 Z" fill="#059669"/><text x="910" y="395" text-anchor="middle" fill="#059669" font-size="10" class="mono">Approval / CVV</text><text x="910" y="445" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">Issuing Bank</text>
+<g class="s" style="animation-delay:0.0s">
+<path d="M 160 275 L 260 275" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 160 275 L 260 275"/></circle>
+<rect x="50" y="225" width="110" height="100" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:3.5s">
+<path d="M 160 275 L 260 275" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 160 275 L 260 275"/></circle>
+<rect x="260" y="225" width="120" height="100" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:7.0s">
+<path d="M 160 275 L 260 275" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 160 275 L 260 275"/></circle>
+<rect x="260" y="225" width="120" height="100" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:10.5s">
+<path d="M 380 275 L 480 275" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 380 275 L 480 275"/></circle>
+<rect x="480" y="215" width="120" height="120" rx="16" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:14.0s">
+<path d="M 540 215 L 650 160" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 540 215 L 650 160"/></circle>
+<rect x="650" y="100" width="140" height="85" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:17.5s">
+<path d="M 720 185 L 720 330" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 720 185 L 720 330"/></circle>
+<rect x="650" y="330" width="130" height="90" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:21.0s">
+<path d="M 780 375 L 850 375" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 780 375 L 850 375"/></circle>
+<rect x="850" y="325" width="120" height="100" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:24.5s">
+<path d="M 850 340 L 600 275" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#059669" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 850 340 L 600 275"/></circle>
+<rect x="480" y="215" width="120" height="120" rx="16" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:28.0s">
+<path d="M 540 215 L 650 160" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 540 215 L 650 160"/></circle>
+<rect x="650" y="100" width="140" height="85" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:31.5s">
+<path d="M 720 185 L 720 330" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 720 185 L 720 330"/></circle>
+<rect x="650" y="330" width="130" height="90" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+<g class="s" style="animation-delay:35.0s">
+<path d="M 780 375 L 850 375" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round" class="flow"/>
+<circle r="6" fill="#0891b2" filter="url(#gl)"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 780 375 L 850 375"/></circle>
+<rect x="850" y="325" width="120" height="100" rx="12" fill="none" stroke="#0891b2" stroke-width="3" filter="url(#gl)" class="glow"/>
+</g>
+</g>
+<rect x="16" y="482" width="968" height="208" rx="14" fill="#f1f5f9" fill-opacity="0.6" stroke="#e2e8f0"/>
+<text x="36" y="508" fill="#0f172a" font-size="11" font-weight="700" letter-spacing="1">STEP INSPECTOR</text>
+<text x="620" y="508" fill="#475569" font-size="11" font-weight="600" letter-spacing="1">PAYLOAD DATA STRUCTURE</text><text x="964" y="508" text-anchor="end" fill="#64748b" font-size="10" class="mono">JSON / ISO 8583</text>
+<rect x="32" y="520" width="568" height="156" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+<rect x="616" y="520" width="352" height="156" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+<g class="s" style="animation-delay:0.0s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 1 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 1</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: N/A</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">1. Credit Card Presentation</text>
+<text x="48" y="600" fill="#334155" font-size="12">The cardholder presents their credit card physically at a POS terminal or inputs</text>
+<text x="48" y="618" fill="#334155" font-size="12">details into an online e-commerce checkout form.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "pan": "4532 •••• •••• 8933",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "expiry": "09/28",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "cvv": "•••",</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "holder": "ALEXANDER WRIGHT"</text>
+<text x="632" y="629" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:3.5s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 2 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 1</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: OCR_EXTRACT</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">2. Optical Character Recognition (OCR)</text>
+<text x="48" y="600" fill="#334155" font-size="12">The camera/scanner captures the card image, employing advanced OCR algorithms to</text>
+<text x="48" y="618" fill="#334155" font-size="12">extract Primary Account Number (PAN), expiry date, and cardholder name instantly.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "ocr_status": "SUCCESS",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "extracted_pan": "4532819203948933",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "expiry_date": "0928",</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "confidence_score": 0.98</text>
+<text x="632" y="629" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:7.0s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 3 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 1</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: TOKENIZE</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">3. Card Data Tokenization &amp; Encryption</text>
+<text x="48" y="600" fill="#334155" font-size="12">Extracted sensitive card data is immediately encrypted using TLS and tokenized by the</text>
+<text x="48" y="618" fill="#334155" font-size="12">payment SDK to protect primary account numbers from interception.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "token_id": "tok_99z8x7v65u4t3",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "encryption": "AES-256-GCM",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "pci_dss_compliant": true</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:10.5s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 4 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 1</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: HTTP_POST /v1/charges</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">4. Payment Gateway Ingestion</text>
+<text x="48" y="600" fill="#334155" font-size="12">The Payment Gateway receives the encrypted payload, performs fraud screening (e.g., 3D</text>
+<text x="48" y="618" fill="#334155" font-size="12">Secure, Velocity checks), and routes the transaction to the merchant's Acquirer Bank.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "gateway_id": "gw_live_88492",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "amount": 125.50,</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "currency": "USD",</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "merchant_id": "merch_tech_01"</text>
+<text x="632" y="629" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:14.0s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 5 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 2</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: MTI 0100 (Auth Req)</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">5. Acquirer Bank Routing (ISO 8583: 0100)</text>
+<text x="48" y="600" fill="#334155" font-size="12">The Acquirer Bank formats the transaction into an ISO 8583 Message Type Identifier</text>
+<text x="48" y="618" fill="#334155" font-size="12">(MTI) 0100 Authorization Request and forwards it to the Card Scheme Network.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "mti": "0100",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "processing_code": "000000",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "amount": 12550,</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "acquirer_institution_id": "ACQ_992"</text>
+<text x="632" y="629" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:17.5s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 6 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 2</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: NETWORK_SWITCH</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">6. Card Scheme Network Switching</text>
+<text x="48" y="600" fill="#334155" font-size="12">The Card Scheme (Visa/Mastercard) acts as the central switch, routing the ISO 8583</text>
+<text x="48" y="618" fill="#334155" font-size="12">authorization message securely to the correct Cardholder's Issuing Bank.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "scheme": "VISA",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "routing_table": "ISSUER_BANK_US_04",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "network_latency_ms": 12</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:21.0s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 7 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 2</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: MTI 0110 (Auth Resp)</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">7. Issuing Bank Authorization Check</text>
+<text x="48" y="600" fill="#334155" font-size="12">The Issuing Bank receives the request, verifies account balance, performs anti-fraud</text>
+<text x="48" y="618" fill="#334155" font-size="12">evaluation, validates CVV/AVS, and approves or declines the transaction.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "response_code": "00",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "approval_status": "APPROVED",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "auth_code": "AUT839201",</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "avs_result": "Y"</text>
+<text x="632" y="629" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:24.5s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 8 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 2</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: MTI 0110 (Return)</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">8. Authorization Response Return Path</text>
+<text x="48" y="600" fill="#334155" font-size="12">The approval response flows back through Card Scheme -&gt; Acquirer Bank -&gt; Payment</text>
+<text x="48" y="618" fill="#334155" font-size="12">Gateway -&gt; Merchant POS, confirming funds are authorized and held.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "status": "AUTHORIZED",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "transaction_id": "txn_992819203",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "authorization_code": "AUT839201"</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:28.0s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 9 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 3</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: MTI 1200 (Clearing)</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">9. Batch Clearing Initiation (ISO 8583: 1200)</text>
+<text x="48" y="600" fill="#334155" font-size="12">At end-of-day, the Acquirer Bank aggregates all approved transactions into a batch</text>
+<text x="48" y="618" fill="#334155" font-size="12">file and submits a Clearing Request (MTI 1200) to the Card Scheme.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "mti": "1200",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "batch_id": "bch_20261015_01",</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "total_items": 1420,</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "net_clearing_amount": 84920.50</text>
+<text x="632" y="629" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:31.5s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 10 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 3</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: SETTLEMENT_CALC</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">10. Card Scheme Financial Reconciliation</text>
+<text x="48" y="600" fill="#334155" font-size="12">The Card Scheme reconciles debits and credits between the Acquirer and Issuing banks,</text>
+<text x="48" y="618" fill="#334155" font-size="12">calculating interchange fees and net settlement positions.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "interchange_fee": 1.85,</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "scheme_fee": 0.12,</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "net_settlement": 123.53</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<g class="s" style="animation-delay:35.0s">
+<text x="580" y="508" text-anchor="end" fill="#0891b2" font-size="11" class="mono">Step 11 / 11</text>
+<rect x="48" y="534" width="58" height="18" rx="4" fill="rgba(6,182,212,0.18)" stroke="rgba(6,182,212,0.35)"/><text x="77" y="547" text-anchor="middle" fill="#0891b2" font-size="10" font-weight="700">PHASE 3</text>
+<text x="584" y="547" text-anchor="end" fill="#059669" font-size="11" class="mono">MTI: MTI 1230 (Settled)</text>
+<text x="48" y="576" fill="#0f172a" font-size="15" font-weight="700">11. Issuing Bank Fund Settlement</text>
+<text x="48" y="600" fill="#334155" font-size="12">Funds are transferred from the Issuing Bank to the Acquirer Bank via central bank</text>
+<text x="48" y="618" fill="#334155" font-size="12">settlement accounts, completing the full payment lifecycle.</text>
+<text x="632" y="544" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">{</text>
+<text x="632" y="561" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "settlement_status": "COMPLETED",</text>
+<text x="632" y="578" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "funds_transferred": true,</text>
+<text x="632" y="595" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">  "merchant_payout_scheduled": "T+1"</text>
+<text x="632" y="612" fill="#0e7490" font-size="11" class="mono" xml:space="preserve">}</text>
+</g>
+<rect x="16" y="706" width="968" height="4" rx="2" fill="#e2e8f0"/>
+<rect x="16" y="706" width="968" height="4" rx="2" fill="url(#lg)" class="bar"/>
+<text x="500.0" y="724" text-anchor="middle" fill="#94a3b8" font-size="9">Credit Card Payment Lifecycle &amp; OCR Architecture Engine • ISO 8583 &amp; PCI-DSS Simulation</text>
+</svg>

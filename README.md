@@ -161,7 +161,7 @@ Waiting....
 
 - [Onion architecture with DDD](https://github.com/deadislove/fastapi-onion-ddd-template)
 - [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template)
-- [Microkernel (Plug-in) architecture](https://github.com/deadislove/fastapi-microkernel-app-template) **[Verifying]**
+- [Microkernel (Plug-in) architecture](https://github.com/deadislove/fastapi-microkernel-app-template) **[Latest]**
 
 ## 📈 My Engineering Philosophy
 

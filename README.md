@@ -13,7 +13,7 @@
 
 ## 👋 About Me
 
-Practitioner-first **Senior Software Architect / Senior Software Engineer** with 9+ years of experience specializing in high-throughput FinTech infrastructure, payment gateway integration, and cloud-native distributed systems. Grounded in physics training (M.S. in Physics, NTNU), I bring a first-principles, mechanical-sympathy approach to designing resilient backend systems, secure transaction flows (ISO 8583, PCI-DSS), and scalable cloud infrastructure (GCP, AWS, Azure).
+Practitioner-first **Senior Software Architect / Senior Software Engineer** with 10+ years of experience specializing in high-throughput FinTech infrastructure, payment gateway integration, and cloud-native distributed systems. Grounded in physics training (M.S. in Physics, NTNU), I bring a first-principles, mechanical-sympathy approach to designing resilient backend systems, secure transaction flows (ISO 8583, PCI-DSS), and scalable cloud infrastructure (GCP, AWS, Azure).
 
 - 🔭 **Currently working on:** Enterprise payment gateway architectures (`OmniSwitch`), cross-platform security SDKs (`Aegis-Scan`), and air-gapped AI-assisted quality inspection systems (`WaferSight`).
 - 💡 **Core Expertise:** Distributed Systems, Domain-Driven Design (DDD), Hexagonal & Modular Monolith Architectures, High-Throughput Payment Engines, and Resilient Cloud-Native Infrastructure.

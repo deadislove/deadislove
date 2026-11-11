@@ -11,6 +11,23 @@
   </a>
 </p>
 
+## 👋 About Me
+
+Practitioner-first **Senior Software Architect / Senior Software Engineer** with 9+ years of experience specializing in high-throughput FinTech infrastructure, payment gateway integration, and cloud-native distributed systems. Grounded in physics training (M.S. in Physics, NTNU), I bring a first-principles, mechanical-sympathy approach to designing resilient backend systems, secure transaction flows (ISO 8583, PCI-DSS), and scalable cloud infrastructure (GCP, AWS, Azure).
+
+- 🔭 **Currently working on:** Enterprise payment gateway architectures (`OmniSwitch`), cross-platform security SDKs (`Aegis-Scan`), and air-gapped AI-assisted quality inspection systems (`WaferSight`).
+- 💡 **Core Expertise:** Distributed Systems, Domain-Driven Design (DDD), Hexagonal & Modular Monolith Architectures, High-Throughput Payment Engines, and Resilient Cloud-Native Infrastructure.
+- 🛠️ **Tech Stack:** C# (.NET), Python (FastAPI), TypeScript (Node.js, NestJS), Go, C++20, PostgreSQL, Redis, Kubernetes, Terraform, GCP, AWS, Azure.
+- 📫 **Let's Connect:** [LinkedIn (Da-Wei Lin)](https://www.linkedin.com/in/da-wei-lin-689a35107/)
+
+---
+
+## 📈 My Engineering Philosophy
+
+- **Design for Failure:** Systems must degrade gracefully. Centralized orchestration often creates bottlenecks; I favor resilient, decoupled boundaries.
+- **Documentation is Architecture:** Clear technical documentation and standardized protocols (like PCI DSS or ISO 8583) are non-negotiable for system integrity.
+
+---
 
 <!--
 **deadislove/deadislove** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -66,6 +83,13 @@ Here are some ideas to get you started:
 - Key Insight: Prioritizes strict data privacy through a "zero-disk" architecture and memory-wipeable buffers for sensitive PAN data. It maintains high performance using atomic frame dropping (processing a single in-flight frame) and applies a unified OCR-confusion repair algorithm universally across mobile, web, and desktop environments.
 - Tech Stack: C++20 (Core Engine), Swift / AVFoundation (iOS), Kotlin / ML Kit (Android), TypeScript / Web Workers (Web), .NET 8, Java 21+ (FFM/JNI).
 - Note: The React Native and Flutter implementations are provided as working reference wrappers rather than published packages. Web-based scanning requires a pluggable external OCR module (like Tesseract.js), and live camera accuracy scales with the platform's native recognizer capabilities.
+
+### 💳 [SentryScore - Credit Card Fraud Detection API](https://github.com/deadislove/sentryscore) [Latest]
+
+- Core Function: An end-to-end machine learning inference API that evaluates transactional risk and predicts credit card fraud in real time, trained on the IEEE-CIS Fraud Detection competition dataset.
+- Key Insight: Built with production-grade rigor rather than stopping at a notebook metric. It utilizes a strict time-based split (earliest 80% train, latest 20% validation) to prevent data leakage from temporal concept drift, achieving a realistic PR-AUC of 0.5926 (with 3.5% base fraud rate). It features a mostly-named request schema reflecting real payment fields (`product_cd`, card networks, email domains, address metrics) alongside anonymized vendor feature arrays, and enforces bulletproof preprocessing consistency where incoming live requests are mapped using the exact same training-fit `OrdinalEncoder` (handling missing `None` values into true NaNs) to prevent silent model degradation.
+- Tech Stack: Python, Pandas, NumPy, Scikit-Learn, LightGBM, FastAPI, Uvicorn, Joblib
+- Note: The underlying LightGBM model and encoder are pre-trained and committed for instant API deployment, but the raw IEEE-CIS dataset (~1.3GB) must be downloaded separately from Kaggle if you wish to rerun `train.ipynb` from scratch.
  
 ---
 
@@ -163,11 +187,4 @@ Waiting....
 - [Modular Monolith Architecture](https://github.com/deadislove/fastapi-modular-monolith-template)
 - [Microkernel (Plug-in) architecture](https://github.com/deadislove/fastapi-microkernel-app-template) **[Latest]**
 
-## 📈 My Engineering Philosophy
 
-- Design for Failure: Systems must degrade gracefully. Centralized orchestration often creates bottlenecks; I favor resilient, decoupled boundaries.
-- Documentation is Architecture: Clear technical documentation and standardized protocols (like PCI DSS or ISO 8583) are non-negotiable for system integrity.
-
-## 📫 Let's Connect
-
-LinkedIn: [Da-Wei Lin](https://www.linkedin.com/in/da-wei-lin-689a35107/)

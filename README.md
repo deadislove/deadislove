@@ -55,6 +55,9 @@ Here are some ideas to get you started:
 - API
     - [Smile Rabbit Bear - AI Translation API](https://rapidapi.com/dawei.lin7689/api/smile-rabbit-bear-ai-translation-api/playground/apiendpoint_e10ce7f4-f6cf-472e-9884-918177ee68b9)
  
+- Fintech
+  - [Aegis-Scan](https://github.com/deadislove/aegis_scan)
+ 
 - CLI
   - [Aegis-NetValid-Core [The Orchestrator]](https://github.com/deadislove/aegis_netvalid_core) **[Latest]**
 
